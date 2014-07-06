@@ -1,0 +1,224 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Invision Reviews</title>
+<link rel="stylesheet" href="menustyle.css" type="text/css" />
+<script type="text/javascript" src="menuscript.js"></script>
+
+</head>
+
+<body>
+
+
+<div id="container">
+<img src="images/header.gif" />
+
+<!--for new navbar -->
+<img src="images/navbar.gif" style="height:32px; width:999px;" />
+
+<!--for new navbar -->
+<a href="InvisionPartC.html"><img src="images/homeimg.png" style="position:relative; left:15px; top:-32px;" /></a>
+
+<!--for new navbar -->
+<div style="position:relative; top:-62px; left: 80px;">
+
+<ul class="menu" id="menu">
+<li><a href="" class="menulink">Phones</a>
+<ul>
+<li><a href="android.html" >Android</a>
+</li>
+<li><a href="blackberry.html" >Blackberry</a>
+</li>
+<li><a href="iphone.html">iPhone</a>
+</li>
+<li><a href="windows7.html">Windows 7</a>
+</li>
+</ul>
+
+<li><a href="#" class="menulink">Carriers</a>
+<ul>
+<li><a href="att.html">AT&T</a></li>
+<li><a href="tmobile.html">T-Mobile</a></li>
+<li><a href="verizon.html">Verizon</a></li>
+<li><a href="sprint.html">Sprint</a></li>
+</ul>
+</li>
+<li><a href="#" class="menulink">Live Features</a>
+<ul>
+<li><a href="demo.html">Demonstrations</a></li>
+</ul>
+</li>
+<li><a href="#" class="menulink" style="border-right">News</a>
+<ul>
+<li><a href="article.html">Full Articles</a></li>
+</ul>
+</li>
+</ul> 
+</div>
+
+<!--for new navbar -->
+<div id="container-content-main" style="position:relative; top:-50px; left:inherit;">
+
+
+<div>
+<!--Are you tired of going to more than one site to compare phone specifications??? Well, here's your solution. This free site has all of the major phone brands and compares them to each other at the same time. All you have to do is click on the phone(s) that interest you and read about the specs, latest news and updates, and see pictures of what the phone looks like from different angles. To begin, click on one of the links above.
+<img src="images/blackberry1.jpg" width="180" height="220" />
+<img src="images/g23.jpg" width="200" height="180" />
+<img src="images/iphone1.jpg" width="180" height="220" />-->
+<div>
+<script type="text/javascript">
+
+
+
+var sliderwidth="820px"
+var sliderheight="300px"
+var slidespeed=2
+slidebgcolor="#0000"
+
+var leftrightslide=new Array()
+var finalslide=''
+leftrightslide[0]='<a href=""><img src="images/blackberry-torch-front-540x540.jpg" border=0></a>'
+leftrightslide[1]='<a href=""><img src="images/bb.jpg" border=0></a>'
+leftrightslide[2]='<a href=""><img src="images/iphone4_2up_front_side.jpg" border=0></a>'
+leftrightslide[3]='<a href=""><img src="images/Samsung Focus 1.jpg" border=0></a>'
+leftrightslide[4]='<a href=""><img src="images/ATRIX-4G_Front_Home_ATT.jpg" border=0></a>'
+leftrightslide[5]='<a href=""><img src="images/droid_by_motorola_front_vzw_eye.jpg" border=0></a>'
+leftrightslide[6]='<a href=""><img src="images/New-myTouch-with-Video-Chat.jpg" border=0></a>'
+
+
+
+var imagegap=" "
+var slideshowgap=0
+
+var copyspeed=slidespeed
+leftrightslide='<nobr>'+leftrightslide.join(imagegap)+'</nobr>'
+var iedom=document.all||document.getElementById
+if (iedom)
+document.write('<span id="temp" style="visibility:hidden;position:absolute;top:-100px;left:-9000px">'+leftrightslide+'</span>')
+var actualwidth=''
+var cross_slide, ns_slide
+
+function fillup(){
+if (iedom){
+cross_slide=document.getElementById? document.getElementById("test2") : document.all.test2
+cross_slide2=document.getElementById? document.getElementById("test3") : document.all.test3
+cross_slide.innerHTML=cross_slide2.innerHTML=leftrightslide
+actualwidth=document.all? cross_slide.offsetWidth : document.getElementById("temp").offsetWidth
+cross_slide2.style.left=actualwidth+slideshowgap+"px"
+}
+else if (document.layers){
+ns_slide=document.ns_slidemenu.document.ns_slidemenu2
+ns_slide2=document.ns_slidemenu.document.ns_slidemenu3
+ns_slide.document.write(leftrightslide)
+ns_slide.document.close()
+actualwidth=ns_slide.document.width
+ns_slide2.left=actualwidth+slideshowgap
+ns_slide2.document.write(leftrightslide)
+ns_slide2.document.close()
+}
+lefttime=setInterval("slideleft()",25)
+}
+window.onload=fillup
+
+function slideleft(){
+if (iedom){
+if (parseInt(cross_slide.style.left)>(actualwidth*(-1)+8))
+cross_slide.style.left=parseInt(cross_slide.style.left)-copyspeed+"px"
+else
+cross_slide.style.left=parseInt(cross_slide2.style.left)+actualwidth+slideshowgap+"px"
+
+if (parseInt(cross_slide2.style.left)>(actualwidth*(-1)+8))
+cross_slide2.style.left=parseInt(cross_slide2.style.left)-copyspeed+"px"
+else
+cross_slide2.style.left=parseInt(cross_slide.style.left)+actualwidth+slideshowgap+"px"
+
+}
+else if (document.layers){
+if (ns_slide.left>(actualwidth*(-1)+8))
+ns_slide.left-=copyspeed
+else
+ns_slide.left=ns_slide2.left+actualwidth+slideshowgap
+
+if (ns_slide2.left>(actualwidth*(-1)+8))
+ns_slide2.left-=copyspeed
+else
+ns_slide2.left=ns_slide.left+actualwidth+slideshowgap
+}
+}
+
+
+if (iedom||document.layers){
+with (document){
+document.write('<table border="0" cellspacing="0" cellpadding="0"><td>')
+if (iedom){
+	//bound
+write('<div style="position:relative;width:'+sliderwidth+';height:'+sliderheight+';overflow:hidden">')
+//mouse stop
+write('<div style="position:absolute;width:'+sliderwidth+';height:'+sliderheight+';background-color:'+slidebgcolor+'" onMouseover="copyspeed=0" onMouseout="copyspeed=slidespeed">')
+
+write('<div id="test2" style="position:absolute;left:-20px;top:0px"></div>')
+write('<div id="test3" style="position:absolute;left:-255px;top:0px"></div>')
+write('</div></div>')
+}
+else if (document.layers){
+write('<ilayer width='+sliderwidth+' height='+sliderheight+' name="ns_slidemenu" bgColor='+slidebgcolor+'>')
+write('<layer name="ns_slidemenu2" left=0 top=0 onMouseover="copyspeed=0" onMouseout="copyspeed=slidespeed"></layer>')
+write('<layer name="ns_slidemenu3" left=0 top=0 onMouseover="copyspeed=0" onMouseout="copyspeed=slidespeed"></layer>')
+write('</ilayer>')
+}
+document.write('</td></table>')
+}
+}
+</script>
+</div>
+
+<div>
+<h2 style="color:#666">HeadLines</h2> 
+<hr />
+<span>FCC Promises Thorough Review of AT&amp;T / T-Mobile Merger</span><br  />
+<span style="font-size:14px; font-weight:normal" >The Federal Communications Commission held a press call today to discuss how it will evaluate AT&amp;T's proposed acquisition of T-Mobile. It has filed the necessary paperwork to start the ball rolling, and will hereafter allow AT&amp;T and T-Mobile to submit the needed documentation confidentially. The FCC and Department of Justice will conduct parallel reviews of the merger, which will take into consideration the FCC's own spectrum plans; how the merger will affect competition in the near- and long-term; and if/how the merger might advance technology. The FCC said that it will weigh competition heavily, and will examine the number of carriers left and the portions of the overall market they each control, and how wireless revenues are spread across the market. The FCC will perform a detailed market-by-market spectrum analysis. It would not commit to a timeframe in which it expects to complete the review. AT&amp;T believes the process will take about one year.</span>
+<hr  />
+</div>
+<div>
+<span>Best Buy Now Targeting 600 - 800 Mobile Stores</span><br />
+<span style="font-size:14px; font-weight:normal" >Best Buy has announced plans to expands the retail footprint of its stand-alone stores that focus on selling mobile phones. The company is now looking to open a total between 600 to 800 mobile stores in order to better compete with rivals RadioShack, Target, and Wal-Mart. Best Buy hopes to have the new stores open within five years. It is making the move after investors voiced concern over sinking sales at its big box stores. Best Buy has been more aggressive about courting consumers interested in purchasing mobile products.</span>
+<hr  />
+</div>
+<div>
+<span>Google Confirms Carrier Billing Support from Sprint</span><br />
+
+<span style="font-size:14px; font-weight:normal" >Google today indicated through a post on the Android Developers Blog that Sprint has begun supporting Direct Carrier Billing for applications purchased by Sprint Android handset owners. Sprint's customers can now buy applications in the Android Market and have the fees added directly to their Sprint monthly bill (rather than require the use of a credit card). Google said that the new functionality will be rolled out in phases, but all Sprint customers should have access to carrier billing within the next few days. Direct Carrier Billing is already supported by AT&amp;T and T-Mobile.</span>
+<hr />
+</div>
+<div>
+<span>Twitter 1.1 for BlackBerry Reaches Full Release</span><br />
+<span style="font-size:14px; font-weight:normal" >Research In Motion today announced that Twitter 1.1 has graduated from beta and is available for free to anyone wishing to download it from BlackBerry App World. The new software offers a wide range of new features. Twitter 1.1 for BlackBerry adds @replies push notification support; Direct Messages now appear in a threaded, conversational style similar to BBM; auto-complete support has been added to hashtags; it has better integration with other social feeds; retweets have been updated and are now included in the timeline; and touch screen BlackBerries can now perform new touch gestures to control their timeline. The application also now supports simplified Chinese, traditional Chinese, Polish, Czech, and Thai. It will become available in BlackBerry App World within the next 24 hours.</span>
+<hr />
+</div>
+<div style="padding-bottom:5%">
+<span>Microsoft Taking 'Patient' Route to Distributing Updates</span><br />
+
+<span style="font-size:14px; font-weight:normal" >Microsoft's Joe Belifiore today admitted that the system updates offered to Windows Phone 7 devices so far have fallen short of the company's expectations. "We had expected it to be earlier than now," said Belfiore at Microsoft's MIX 2011 conference in Las Vegas. Microsoft began pushing an update in February that was meant to prepare WP7 devices for future updates. That update itself didn't roll out smoothly, and caused problems for some handsets. Once Microsoft believed those problems to be solved, it began the more sigtnificant NoDo update, which adds copy-and-paste and other features. It ran into problems with that update, too. "We felt it would be better to be a little bit patient, make sure that when we get updates out that they would happen reliably, and unfortunately that caused a delay in getting things out," Belfiore commented. Microsoft believes that future updates will be rolled out more successfully. As of today, WP7 devices running on AT&amp;T's networt -- HTC Surround, LG Quantum, and Samsung Focus -- have yet to receive the NoDo update. The next major update, Mango, won't be pushed out until later this year.</span>
+</div>
+</div>
+
+</div>
+
+<!--for new navbar -->
+<div style="padding-bottom:5%; position:relative; top:-45px;" >
+<hr style="width:999px"/>
+All content Copyright 2001-2011 Invision, LLC. All Rights Reserved.
+Text, images and all other content on this site may not be copied or republished in any way without formal permission. 
+</div>
+
+<script type="text/javascript">
+var menu=new menu.dd("menu"); menu.init("menu","menuhover");
+</script>
+
+</div>
+</body>
+</html>
