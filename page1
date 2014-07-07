@@ -1,0 +1,114 @@
+<head>
+<title>Android</title>
+<link rel="stylesheet" href="menustyle.css" type="text/css" />
+<script type="text/javascript" src="menuscript.js"></script>
+
+</head>
+
+<body>
+
+
+<div id="container">
+<img src="images/header.gif" />
+
+<!--for new navbar -->
+<img src="images/navbar.gif" style="height:32px; width:999px;" />
+
+<!--for new navbar -->
+<a href="InvisionPartC.html"><img src="images/homeimg.png" style="position:relative; left:15px; top:-32px;" /></a>
+
+<!--for new navbar -->
+<div style="position:relative; top:-62px; left: 80px;">
+
+<ul class="menu" id="menu">
+<li><a href="" class="menulink">Phones</a>
+<ul>
+<li><a href="android.html" >Android</a>
+</li>
+<li><a href="blackberry.html" >Blackberry</a>
+</li>
+<li><a href="iphone.html">iPhone</a>
+</li>
+<li><a href="windows7.html">Windows 7</a>
+</li>
+</ul>
+
+<li><a href="#" class="menulink">Carriers</a>
+<ul>
+<li><a href="att.html">AT&T</a></li>
+<li><a href="tmobile.html">T-Mobile</a></li>
+<li><a href="verizon.html">Verizon</a></li>
+<li><a href="sprint.html">Sprint</a></li>
+</ul>
+</li>
+<li><a href="#" class="menulink">Live Features</a>
+<ul>
+<li><a href="demo.html">Demonstrations</a></li>
+</ul>
+</li>
+<li><a href="#" class="menulink" style="border-right">News</a>
+<ul>
+<li><a href="article.html">Full Articles</a></li>
+</ul>
+</li>
+</ul> 
+</div>
+
+<!--for new navbar -->
+<div id="container-content-main" style="position:relative; top:-50px; left:inherit;">
+
+<!-- Empty div to give some space from the top did it this way because im lazy-->
+<div style="padding-top:40px;"></div>
+
+<img src="images/android2.jpg" style="float:left;" />
+<div>
+<span style="font-size:17px; font-weight:normal" >
+Android is a software stack for mobile devices that includes an operating system and key applications. The Android platform is owned and operated by Google Inc.. The platform is adaptable to larger 2D and 3D graphics libraries and traditional smartphone layouts. SQLite, a lightweight realational database is used for data storage purposes. Android supports connectivity technologies including Bluetooth, Wi-Fi, and many others. SMS and MMS are available forms of messaging, including threaded text messaging and now Android Cloud to Device Messaging Framework(C2DM) is also a part of Android Push Messaging service. The web browser available is based on the open-source WebKit layout engine coupled with Chrome's V8 JavaScript engine. Android supports many audio/video/still media formats including MPEG-4, MP3, JPEG, GIF, and others. For streaming video, Android supports HTML, Adobe Flash, Apple HTTP, and RealPlayer. The Android Market is included and is a catalog of applications that can be downloaded and installed to Android devices over-the-air, without using a PC. As of December 2010, there were about 200,000 games, applications and widgets available on the Android market. Android supports sending files, accessing the phone book, voice dialing and sending contacts between phones through a bluetooth connection. The mainstream Android version does not support video calling, but some handsets have customized versions of the operating system which supports it. Multitasking of applications is available. Google search and other voice actions, such as calling, texting, and navigation, are supported on Android 2.2 and those that follow. Android also supports tethering, which allows a phone to be used as a wireless/wired hotspot.</span>
+</div>
+
+
+<div>
+<span style="font-size:19px; font-weight:bold" >Click on an image below to find out more about that device:</span>
+</div>
+
+
+<p style="padding-top:20px;">
+<table border="0" >
+<tr>
+<td><a href="captivate.html"><img src="images/captivate1.jpg" width="220" height="220" border="0" /></td>
+<td></td>
+<td><a href="evo.html"><img src="images/evo1.jpg" width="180" height="220" border="0" /></td>
+<td></td>
+<td><a href="droidx.html"><img src="images/droidx1.jpg" width="300" height="220" border="0" /></td>
+<td></td>
+<td><a href="g2.html"><img src="images/g23.jpg" width="220" height="180" border="0" /></td>
+</tr>
+<tr>
+<td align="center"><b>Captivate</b></td>
+<td></td>
+<td align="center"><b>Evo</b></td>
+<td></td>
+<td align="center"><b>Droid X</b></td>
+<td></td>
+<td align="center"><b>G2</b></td>
+</tr>
+</table>
+</p>
+
+<!-- Empty div to give some space from the bottom did it this way because im lazy-->
+<div style="padding-bottom:40px;"></div>
+
+</div>
+
+<!--for new navbar -->
+<div style="padding-bottom:5%; position:relative; top:-45px;" >
+<hr style="width:999px"/>
+All content Copyright 2001-2011 Invision, LLC. All Rights Reserved.
+Text, images and all other content on this site may not be copied or republished in any way without formal permission. 
+</div>
+<script type="text/javascript">
+var menu=new menu.dd("menu"); menu.init("menu","menuhover");
+</script>
+</div>
+</body>
+</html>
