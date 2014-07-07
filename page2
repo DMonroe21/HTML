@@ -1,0 +1,321 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>AT&T</title>
+<!--<link rel="stylesheet" href="androidstyle.css" type="text/css" />-->
+<link rel="stylesheet" href="menustyle.css" type="text/css" />
+<script type="text/javascript" src="menuscript.js"></script>
+<style type="text/css">
+#data
+{
+   font-family:Verdana, Arial, Helvetica, sans-serif;
+   border-collapse:collapse;
+   width:940px;
+   text-align:center;
+}
+#data td, #att th
+{
+   font-size:0.8em;
+   border: 1px solid #000080;
+   padding:3px;
+}
+#data th
+{
+   font-size:0.8em;
+   text-align:center;
+   vertival-align:middle;
+   border: 1px solid #000080;
+   background-color:#483d8b;
+   color:#ffffff;
+}
+#data tr.alt td
+{
+   color:#000000;
+   background-color:#d3d3d3;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="container">
+<img src="images/header.gif" />
+
+<!--for new navbar -->
+<img src="images/navbar.gif" style="height:32px; width:999px;" />
+
+<!--for new navbar -->
+<a href="InvisionPartC.html"><img src="images/homeimg.png" style="position:relative; left:15px; top:-32px;" /></a>
+
+<!--for new navbar -->
+<div style="position:relative; top:-62px; left: 80px;">
+
+<ul class="menu" id="menu">
+<li><a href="" class="menulink">Phones</a>
+<ul>
+<li><a href="android.html" >Android</a>
+</li>
+<li><a href="blackberry.html" >Blackberry</a>
+</li>
+<li><a href="iphone.html">iPhone</a>
+</li>
+<li><a href="windows7.html">Windows 7</a>
+</li>
+</ul>
+
+<li><a href="#" class="menulink">Carriers</a>
+<ul>
+<li><a href="att.html">AT&T</a></li>
+<li><a href="tmobile.html">T-Mobile</a></li>
+<li><a href="verizon.html">Verizon</a></li>
+<li><a href="sprint.html">Sprint</a></li>
+</ul>
+</li>
+<li><a href="#" class="menulink">Live Features</a>
+<ul>
+<li><a href="demo.html">Demonstrations</a></li>
+</ul>
+</li>
+<li><a href="#" class="menulink" style="border-right">News</a>
+<ul>
+<li><a href="article.html">Full Articles</a></li>
+</ul>
+</li>
+</ul> 
+</div>
+
+<!--for new navbar -->
+<div id="container-content-main" style="position:relative; top:-50px; left:inherit;">
+
+<!-- Empty div to give some space from the bottom did it this way because im lazy-->
+<div style="padding-bottom:30px;"></div>
+
+<div>
+<span style="font-size:28px; font-weight:bold">
+Individual Cell Phone Plans</span>
+<br />
+<span style="font-size:14px; font-weight:normal" >AT&amp;T, The Nation's Fastest Mobile Broadband Network, offers a variety of individual cell phone plans where you'll enjoy:
+<ul>
+<li><b>Unlimited</b> calling to other AT&amp;T wireless customers with <b>Mobile to Mobile</b> while in the U.S.</li>
+<li>No <b>roaming or long distance charges</b> in the U.S.</li>
+<li>Saving unused minutes with <b>Rollover</b></li>
+<li><b>Get unlimited calling to and from your favorite U.S. phone numbers at no extra charge with A-list.</b></li>
+<li>Unlimted calling on <b>Night and Weekends</b> for most plans</li>
+</ul>
+</span>
+<br />
+<hr />
+<span style="font-size:16px; font-weight:bold" >Nation Plans</span>
+<table id="data">
+<tr>
+<th>Minutes</th>
+<th>Monthly Cost</th>
+<th>Rollover</th>
+<th>Unlimited<br />Night/Weekends</th>
+<th>Unlimited<br />Mobile to Mobile</th>
+<th>A-List</th>
+</tr>
+<tr class="alt">
+<td>450</td>
+<td>$39.99</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>Includes 5000</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td>900</td>
+<td>$59.99</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+</tr>
+<tr class="alt">
+<td>Unlimited</td>
+<td>$69.99</td>
+<td></td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td></td>
+</tr>
+</table>
+<!--<hr />-->
+<br />
+<span style="font-size:16px; font-weight:bold" >Nation with Canada Plans</span><br />
+<span style="font-size:14px; font-weight:normal" >No long distance or roaming charges for voice calls between the US and Canada and a data pay-per-use rate of $2/MB in Canada.</span>
+<table id="data">
+<tr>
+<th>Minutes<br />(U.S. + Canada)</th>
+<th>Monthly Cost</th>
+<th>Rollover</th>
+<th>Included<br />Night/Weekends<br />(U.S. + Canada)</th>
+<th>Unlimited<br />Mobile to Mobile<br />in the U.S.</th>
+<th>A-List</th>
+</tr>
+<tr class="alt">
+<td>450</td>
+<td>$59.99</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>Includes 1000</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td>900</td>
+<td>$79.99</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>Includes 1000</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+</tr>
+<tr class="alt">
+<td>1350</td>
+<td>$99.99</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>Includes 1000</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td>2000</td>
+<td>$119.99</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>Includes 1000</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+</tr>
+<tr class="alt">
+<td>4000</td>
+<td>$169.99</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>Includes 1000</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+</tr>
+<tr>
+<td>6000</td>
+<td>$219.99</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>Includes 1000</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+</tr>
+</table>
+<!--<hr />-->
+<br />
+<span style="font-size:16px; font-weight:bold" >Senior Plan</span><br />
+<span style="font-size:14px; font-weight:normal" >Available to customers 65 and older.</span>
+<table id="data">
+<tr>
+<th>Minutes</th>
+<th>Monthly Cost</th>
+<th>Rollover</th>
+<th>Unlimited<br />Night/Weekends</th>
+<th>Unlimited<br />Mobile to Mobile</th>
+</tr>
+<tr class="alt">
+<td>200</td>
+<td>$29.99</td>
+<td></td>
+<td>Includes 500</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+</tr>
+</table>
+<hr />
+<br />
+<br />
+<span style="font-size:28px; font-weight:bold">
+DataConnect Plans</span>
+<br />
+<span style="font-size:14px; font-weight:normal" >DataConnect for your laptop, netbook, or PC card - lets you send and receive email, and browse the Internet from virtually anywhere. You can also access your corporate intranet while on the go by connecting to the Internet over the AT&T wireless network.<br />DataConnect is not an unlimited plan.</span>
+<br />
+<br />
+
+<hr /> 
+<span style="font-size:16px; font-weight:bold" >DataConnect 3G plans for 3G Laptop, 3G Laptop Connect Cards and 3G/4G Mobile Hotspots</span>
+<table id="data">
+<tr>
+<th>Data</th>
+<th>Monthly Cost</th>
+<th>AT&amp;T Wi-Fi<br />Access</th>
+<th>Domestic<br />Overage Fees<br />(U.S. + Canada)</th>
+<th>Canadian<br />Data<br />in the U.S.</th>
+<th>International<br />Data</th>
+</tr>
+<tr class="alt">
+<td>DataConnect 200<br />MB</td>
+<td>$35.00</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>$0.10 per 1 MB</td>
+<td>$0.015/KB</td>
+<td>$0.0195/KB</td>
+</tr>
+<tr>
+<td>DataConnect 3GB<br />HotSpot</td>
+<td>$35.00</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>$10.00 per 1 GB</td>
+<td>$0.015/KB</td>
+<td>$0.0195/KB</td>
+</tr>
+<tr class="alt">
+<td>DataConnect 5 GB</td>
+<td>$60.00</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>$0.05 per 1 MB</td>
+<td>$0.015/KB</td>
+<td>$0.0195/KB</td>
+</tr>
+</table>
+<!--<hr />-->
+<br />
+<span style="font-size:16px; font-weight:bold" >DataConnect 4G plans for 4G Laptop, 4G Laptop Connect Cards and 3G/4G Mobile Hotspots</span>
+<table id="data">
+<tr>
+<th>Data</th>
+<th>Monthly Cost</th>
+<th>AT&amp;T Wi-Fi<br />Access</th>
+<th>Domestic<br />Overage Fees<br />(U.S. + Canada)</th>
+<th>Canadian<br />Data<br />in the U.S.</th>
+<th>International<br />Data</th>
+</tr>
+<tr class="alt">
+<td>DataConnect 5GB<br />HotSpot</td>
+<td>$50.00</td>
+<td><img src="images/checkmark.jpg" align="center"></td>
+<td>$10.00 per 1 GB</td>
+<td>$0.015/KB</td>
+<td>$0.0195/KB</td>
+</tr>
+</table>
+<hr />
+<br />
+<br />
+<span style="font-size:16px; font-weight:bold" >For more information and plans, visit <a href="http://www.wireless.att.com/cell-phone-service/cell-phone-plans/">AT&amp;T.</a></span>
+</div>
+
+<!-- Empty div to give some space from the bottom did it this way because im lazy-->
+<div style="padding-bottom:40px;"></div>
+</div>
+
+<!--for new navbar -->
+<div style="padding-bottom:5%; position:relative; top:-45px;" >
+<hr style="width:999px"/>
+All content Copyright 2001-2011 Invision, LLC. All Rights Reserved.
+Text, images and all other content on this site may not be copied or republished in any way without formal permission. 
+</div>
+
+<script type="text/javascript">
+var menu=new menu.dd("menu"); menu.init("menu","menuhover");
+</script>
+</div>
+
+</body>
+
+</html>
