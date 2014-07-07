@@ -1,0 +1,185 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Phone Demonstrations</title>
+<link rel="stylesheet" href="menustyle.css" type="text/css" />
+<script type="text/javascript" src="menuscript.js"></script>
+<style type="text/css">
+.logo{
+	position:relative; 
+	left:600px;
+	width:200px;
+	height:200px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+<img src="images/header.gif" />
+
+<img src="images/navbar.gif" style="height:32px; width:999px;" />
+
+<a href="InvisionPartC.html"><img src="images/homeimg.png" style="position:relative; left:15px; top:-32px;" /></a>
+
+<div style="position:relative; top:-62px; left: 80px;">
+
+<ul class="menu" id="menu">
+<li><a href="" class="menulink">Phones</a>
+<ul>
+<li><a href="android.html" >Android</a>
+</li>
+<li><a href="blackberry.html" >Blackberry</a>
+</li>
+<li><a href="iphone.html">iPhone</a>
+</li>
+<li><a href="windows7.html">Windows 7</a>
+</li>
+</ul>
+
+<li><a href="#" class="menulink">Carriers</a>
+<ul>
+<li><a href="att.html">AT&T</a></li>
+<li><a href="tmobile.html">T-Mobile</a></li>
+<li><a href="verizon.html">Verizon</a></li>
+<li><a href="sprint.html">Sprint</a></li>
+</ul>
+</li>
+<li><a href="#" class="menulink">Live Features</a>
+<ul>
+<li><a href="demo.html">Demonstrations</a></li>
+</ul>
+</li>
+<li><a href="#" class="menulink" style="border-right">News</a>
+<ul>
+<li><a href="article.html">Full Articles</a></li>
+</ul>
+</li>
+</ul> 
+</div>
+
+<div id="container-content-main" style="position:relative; top:-50px; left:inherit;">
+<div style="padding-top:40px;"></div>
+
+<div>
+<object style="height: 300px; width: 300px">
+<param name="movie" value="http://www.youtube.com/v/oMrn-shiSCc?version=3"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/oMrn-shiSCc?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="300" height="300"></embed>
+</object><br />
+<b>Samsung Captivate</b>
+</div>
+<br />
+<div>
+<object style="height: 300px; width: 300px">
+<param name="movie" value="http://www.youtube.com/v/OtxEyNDrcmk?version=3"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/OtxEyNDrcmk?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="300" height="300"></embed>
+</object><br />
+<b>HTC G2</b>
+</div>
+<br />
+<div>
+<object style="height: 300px; width: 300px">
+<param name="movie" value="http://www.youtube.com/v/biS1-u25oZM?version=3"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/biS1-u25oZM?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="300" height="300"></embed>
+</object><br />
+<b>HTC Evo</b>
+</div>
+<br />
+<div>
+<object style="height: 300px; width: 300px"></param>
+<param name="movie" value="http://www.youtube.com/v/gSIWt9f2b20?version=3"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/gSIWt9f2b20?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="300" height="300"></embed>
+</object><br />
+<b>Motorola Droid X</b>
+<br />
+<hr />
+<br />
+</div>
+
+
+<div>
+<object style="height: 300px; width: 300px"></param>
+<param name="movie" value="http://www.youtube.com/v/Zu_5JcTqK0U?version=3"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/Zu_5JcTqK0U?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="300" height="300"></embed>
+</object><br />
+<b>iPhone 4 </b>
+<br />
+<hr />
+<br />
+</div>
+
+<div>
+<object style="height: 300px; width: 300px"></param>
+<param name="movie" value="http://www.youtube.com/v/fDwJX15ijao?version=3"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/fDwJX15ijao?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="300" height="300"></embed>
+</object><br />
+<b>Blackberry Torch </b>
+</div>
+<br />
+<div>
+<object style="height: 300px; width: 300px"></param>
+<param name="movie" value="http://www.youtube.com/v/WQhpeW2AyxQ?version=3"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/WQhpeW2AyxQ?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="300" height="300"></embed>
+</object><br />
+<b>Blackberry Curve 3g</b>
+<br />
+<hr />
+<br />
+</div>
+
+<div>
+<object style="height: 300px; width: 300px"></param>
+<param name="movie" value="http://www.youtube.com/v/UQBpiLudT40?version=3"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/UQBpiLudT40?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="300" height="300"></embed>
+</object><br />
+<b>Samsung Focus</b>
+</div>
+<br />
+<div>
+<object style="height: 300px; width: 300px"></param>
+<param name="movie" value="http://www.youtube.com/v/nf1kQpwDVg0?version=3"></param>
+<param name="allowFullScreen" value="true"></param>
+<param name="allowScriptAccess" value="always"></param>
+<embed src="http://www.youtube.com/v/nf1kQpwDVg0?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="300" height="300"></embed>
+</object><br />
+<b>HTC HD7</b>
+</div>
+
+<div style="padding-bottom:90px;"></div>
+</div>
+
+<div style="padding-bottom:5%; position:relative; top:-45px;">
+<hr style="width:999px"/>
+All content Copyright 2001-2011 Invision, LLC. All Rights Reserved.
+Text, images and all other content on this site may not be copied or republished in any way without formal permission. 
+</div>
+<script type="text/javascript">
+var menu=new menu.dd("menu"); menu.init("menu","menuhover");
+</script>
+</div>
+
+</body>
+
+</html>
